@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnkosCvGvXkhEeRBdluicMJgG1wJq7rbBiw&s"alt="SOWBARNIKA" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="SOWBARNIKA">SOWBARNIKA</h1>
+
+          <p class="title">Hai,I'am CS Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sowshi3070@gmail.com" class="contact-link">sowshi3070@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 7890654321" class="contact-link">+91 7890654321</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-05-19">May 19, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chennai, Chrompet, TamilNadu</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A computer science student can be both challenging and rewarding. 
+            You're likely immersed in a mix of theory and practical application, learning about algorithms, data structures, programming languages, software engineering principles, and more.
+            Are there any specific topics or areas within computer science that you find particularly fascinating or are currently studying          
+          </p>
+        </section>
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?s=612x612&w=0&k=20&c=ysEsVw3q2axYt3oVZAuQjtHRlN3lY-U_e0ikK5yKIXQ=" alt=" Web design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="data:image/png;base64,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" alt="Python icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python</h4>
+
+                <p class="service-item-text">
+                  Python is a programming language that's easy to learn and widely used for creating software, websites, and analyzing data.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <!--
+          - testimonials
+        --->   
+          </ul>
+
+        </section>
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2024-06-22">14 June, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Companys</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://www.caddinfotech.in/images/logo-new.png" alt="Company" height="150" width="150">
+              </a>
+            </li>
+
+            
+
+         
+           
+
+           
+
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Annamalai University</h4>
+
+              <span>2023 - 2025</span>
+
+              <p class="timeline-text">
+                An MSc degree signifies advanced knowledge and skills in a specific area of science or technology, preparing graduates for specialized careers and further academic endeavors.
+                Master of Computer science.
+                8.7
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Thiruvalluvar University</h4>
+
+              <span>2020 - 2023</span>
+
+              <p class="timeline-text">
+                which is an undergraduate academic degree awarded to students who have completed a course of study in the sciences or related disciplines.
+                A BSc degree provides a solid foundation in scientific principles and methodologies, preparing graduates for a wide range of career paths or further academic pursuits.
+                Bachelor of computer science
+                9.3
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Higher Secondary School</h4>
+
+              <span>2019 - 2020</span>
+
+              <p class="timeline-text">
+                Higher secondary school represents a critical stage in a student's educational journey, 
+                providing a foundation for future academic and career endeavors by offering specialized knowledge, skills, and qualifications.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Project</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Name</h4>
+
+              <p class="timeline-text">
+               Secure file stoage on cloud using hybrid cryptography
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">project duration</h4>
+              <p class="timeline-text">
+                3 months duration
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project description</h4>
+
+              <p class="timeline-text">
+                Secure file storage on the cloud using hybrid cryptography involves combining the strengths of symmetric and asymmetric encryption to achieve both efficiency and security. 
+                Hybrid cryptography for secure file storage on the cloud leverages the efficiency of symmetric encryption.
+                The security of asymmetric encryption to protect data from unauthorized access and ensure confidentiality even in shared or public cloud environments.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Hybrid cryptography(MySQL,.NET)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python portfolio</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MsOffice</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Portfolio</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Capture.PNG" alt="Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://bootstrapmade.com/content/templatefiles/iPortfolio/iPortfolio-bootstrap-website-template-sm.webp" alt="Bootstrap Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap Portfolio</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://themefisher.com/blog/sleek-dashboard.webp" alt="Sleek" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sleek</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://themefisher.com/blog/dlab.webp" alt="Dlab" loading="lazy">
+                  
+                </figure>
+
+                <h3 class="project-title">Dlab</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://t4.ftcdn.net/jpg/05/03/01/29/240_F_503012956_jFB0Omz4bgGXqbYMIfPTbzRihLJgQiMY.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Marketing</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.224206592111!2d80.14085441531167!3d12.957500218692209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fb0835e2c81%3A0x12b93e2389c37e1b!2sCADD%20Infotech!5e0!3m2!1sen!2sin!4v1676470013457!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <h3>Company Name: CADD Infotech</h3>
+              <h3>Email: enquiry@caddinfotech.in</h3>
+              <h3>Address: #2, Rangaswamy Street, Near Pothys, Chrompet, Chennai - 44. </h3>
+            </div>
+            
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
